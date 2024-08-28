@@ -27,6 +27,9 @@ def get_locale():
 
 @app.route('/')
 def index():
+    """
+    The home/index page
+    """
     return render_template('2-index.html')
 
 
